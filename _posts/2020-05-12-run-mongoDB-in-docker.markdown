@@ -36,7 +36,7 @@ $ sudo apt-get install mongodb-clients
 $ mongo localhost/testdb
 ```
 After that, you’ll get into a MongoDB prompt, like this:
-![The fibonacci recursion tree]({{site.baseurl}}/assets/img/support/mongodb-start.png)
+![Start database in a mongodb client]({{site.baseurl}}/assets/img/support/mongodb-start.png)
 
 We want to store some users in our database:
 
@@ -48,7 +48,7 @@ db.users.find()
 ```
 
 You should see the entries that you created:
-![The fibonacci recursion tree]({{site.baseurl}}/assets/img/support/mongodb-insert-select.png)
+![basic mongodb operations]({{site.baseurl}}/assets/img/support/mongodb-insert-select.png)
 
 
 ### Stopping your MongoDB container
