@@ -8,10 +8,12 @@ fig-caption: # Add figcaption (optional)
 tags: [Authentication, Node.js, JWT, Docker, API]
 ---
 
-JWT (JSON Web Token) is
+JWT (JSON Web Token) is a means of representing claims to be transferred between two parties. The claims in a JWT are encoded as a JSON object that is digitally signed using JSON Web Signature (JWS) and/or encrypted using JSON Web Encryption (JWE).
+
+The tokens are signed either using a private secret or a public/private key. For example, a server could generate a token that has the claim "logged in as admin" and provide that to a client. The client could then use that token to prove that it is logged in as admin. The tokens can be signed by one party's private key (usually the server's) so that party can subsequently verify the token is legitimate. If the other party, by some suitable and trustworthy means, is in possession of the corresponding public key, they too are able to verify the token's legitimacy.
 
 # Setup project
-I like to create my Node.js projects using TYpeScript and to create a minimal node.js express server I use my own cli tool  [ts-express-cli](https://.....) to generate the project. The only thing I have to provide isthe project name, the author name and an optional license type for the package.json.
+I like to create my Node.js projects with TypeScript and to create a minimal node.js express server I use my own cli tool  [ts-express-cli](https://www.npmjs.com/package/ts-express-cli) to generate the project. The only thing I have to provide is the project name, the author name and an optional license type for the package.json.
 
 This will create a project directory with `src/app.ts`, `tslint.json` and `tsconfig.json`. Run `npm install` in the generated project to install the dependencies. Since we are going to work with jsonwebtoken we have to include it's library and it type since we are working with TypeScript, to do that run `npm i jsonwebtoken --save` and `npm i -D @types/jsonwebtoken`. These are all the dependencies we need for this tutorial.
 
