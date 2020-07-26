@@ -9,7 +9,7 @@ tags: [Go, Gorilla, Servers, Websocket, Microservices]
 ---
 In this tutorial I will explain how to write a simple websocket server with the go gorilla framework and a simple client in JavaScript to interface with it.
 
-Orginal Article [Medium: Check web server availability: using Go websocket server](https://medium.com/@ismaildawud96/check-web-server-availability-using-go-websocket-server-3176a2478407). 
+Original Article [Medium: Check web server availability: using Go websocket server](https://medium.com/@ismaildawud96/check-web-server-availability-using-go-websocket-server-3176a2478407). 
 
 These days, there is a very high demand for instant messaging, chat, online gaming and IoT applications which are based on real-time technologies, as we’ll see in the example I try to check if my API servers are down and up ( though we can use [observability tools](https://docs.honeycomb.io/learning-about-observability/intro-to-observability/) , usually in large distributed system) but in my small world I needed to have a simple tool to do this.
 
