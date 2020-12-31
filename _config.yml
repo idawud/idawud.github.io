@@ -9,7 +9,7 @@ site-twitter: idawudi #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Dawud Ibrahim Ismail # add your name
-author-img: dawud-ismail.jpg # add your photo
+author-img: dawud-ismail.jpeg # add your photo
 about-author: Software Engineer working with Java [Spring], Golang [Gorilla, Fiber], JS/TS [Node.js, Express, React, Angular, Next.js], Python [Flask, FastAPI] # add description
 social-twitter: idawudi # add your Twitter handle
 social-facebook: idawudinho # add your Facebook handle
