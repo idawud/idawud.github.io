@@ -1,7 +1,7 @@
 title: I'm Dawud Ibrahim Ismail
 description: > # this means to ignore newlines until "baseurl:"
-      I am a highly driven Software Engineer with a track development in the domains of education, e-Commerce, FinTech and AgriTech.
-      Self-taught person and problem solver searching for personal and technical excellence.
+      I am a highly skilled and driven Software Engineer with development experience in the domains of Banking, Education, e-Commerce, FinTech and AgriTech.
+      Working with Java [Spring], Python [Flask, FastAPI], Golang [Gorilla, Fiber], JS/TS [Node.js, Express, React, Angular, Next.js].
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://idawud.tech/" # the base hostname & protocol for your site, e.g. http://example.com
@@ -10,7 +10,7 @@ site-twitter: idawudi #if your site has a twitter account, enter it here
 # Author Settings
 author: Dawud Ibrahim Ismail # add your name
 author-img: dawud-ismail.jpg # add your photo
-about-author: I'm a Software Engineer with a special focus on the latest Backend & DevOps technologies and practices. # add description
+about-author: Software Engineer working with Java [Spring], Golang [Gorilla, Fiber], JS/TS [Node.js, Express, React, Angular, Next.js], Python [Flask, FastAPI] # add description
 social-twitter: idawudi # add your Twitter handle
 social-facebook: idawudinho # add your Facebook handle
 social-github: idawud # add your Github handle
