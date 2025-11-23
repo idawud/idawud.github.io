@@ -4,7 +4,7 @@ description: > # this means to ignore newlines until "baseurl:"
       Working with Java [Spring], Python [Flask, FastAPI], Golang [Gorilla, Fiber], JS/TS [Node.js, Express, React, Angular, Next.js].
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://idawud.tech/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://idawud.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: idawudi #if your site has a twitter account, enter it here
 
 # Author Settings
